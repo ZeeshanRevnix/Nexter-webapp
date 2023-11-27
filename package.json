@@ -12,8 +12,10 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
+  
   "author": "zeeshan",
   "license": "ISC",
+
   "dependencies": {
     "autoprefixer": "^10.4.16",
     "node-sass": "^9.0.0"
