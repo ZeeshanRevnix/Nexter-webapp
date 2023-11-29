@@ -15,8 +15,7 @@ html {
 body {
   font-family: "Nunito", sans-serif;
   color: #6d5d4b;
-  font-weight: 300;
-  line-height: 1.6rem; }
+  font-weight: 300; }
 
 .container {
   display: grid;
