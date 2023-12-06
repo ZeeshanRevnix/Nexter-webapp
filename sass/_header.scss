@@ -1,10 +1,8 @@
 .header {
   background-color: $color-grey-dark-1;
   grid-column: full-start / col-end 6;
-  background-image: linear-gradient(
-      rgba($color-secondary, 0.93),
-      rgba($color-secondary, 0.93)
-    ),
+  background-image: linear-gradient(rgba($color-secondary, 0.93),
+      rgba($color-secondary, 0.93)),
     url(../img/hero.jpeg);
   background-size: cover;
   background-position: center;
@@ -20,6 +18,7 @@
   @media only screen and (max-width: $bp-medium) {
     grid-column: 1/-1;
   }
+
   @media only screen and (max-width: $bp-small) {
     padding: 5rem;
   }
@@ -28,10 +27,12 @@
     height: 3rem;
     justify-self: center;
   }
+
   &__btn {
     align-self: flex-start;
     justify-self: start;
   }
+
   &__seenon-text {
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
@@ -39,6 +40,7 @@
     align-items: center;
     font-size: 1.6rem;
     color: $color-grey-light-2;
+
     &::before,
     &::after {
       content: "";
@@ -61,4 +63,13 @@
       filter: brightness(70%);
     }
   }
+}
+
+
+// JAVASCRIPT TESTING CLASSES
+.toggleClass {
+  background-color: red;
+  padding: 8px;
+  border: 1px solid blue;
+  cursor: pointer;
 }

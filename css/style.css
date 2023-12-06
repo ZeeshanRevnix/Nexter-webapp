@@ -173,6 +173,12 @@ body {
       max-width: 100%;
       filter: brightness(70%); }
 
+.toggleClass {
+  background-color: red;
+  padding: 8px;
+  border: 1px solid blue;
+  cursor: pointer; }
+
 .realtors {
   background-color: #101d2c;
   grid-column: col-start 7 / full-end;
