@@ -179,6 +179,10 @@ body {
   border: 1px solid blue;
   cursor: pointer; }
 
+.JS__testing {
+  border: 1px solid black;
+  padding: 5px; }
+
 .realtors {
   background-color: #101d2c;
   grid-column: col-start 7 / full-end;
